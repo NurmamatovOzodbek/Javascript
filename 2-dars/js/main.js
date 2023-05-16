@@ -1,15 +1,8 @@
-let num =+prompt("Birinchi son?")
-let num2 =prompt("Amal")
-let num3 =+prompt("Ikkinchi son?")
- if(num2=="+"){
-    alert(num+num3)
- }
- else if(num2=="-"){
-     alert(num-num3)
- }
-  else if(num2=="*"){
-    alert(num*num3)
- }
- else if(num2=="/"){
-     alert(num/num3)
- }
+
+
+let num =+ prompt("1-sonni kiriting")
+let num1 =+ prompt("2-sonni kiriting")
+alert(num+num1)
+alert(num-num1)
+alert(num*num1)
+alert(num/num1)
