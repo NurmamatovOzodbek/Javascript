@@ -68,7 +68,7 @@ switch(daynumber){
 
 let hours=prompt("Vaqtni kiriting")
 
-if(hours=>0 && hours<=6){
+if(hours>0 && hours<=6){
   alert("Good night")
 }
 else if(hours>6 && hours<=12){
