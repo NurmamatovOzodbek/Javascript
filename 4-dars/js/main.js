@@ -18,16 +18,18 @@ for(i=1; i<arr.length; i++){
     s+=arr[i]
   }
 }
-console.log(s)
+console.log((-1)*s)
 
 
 //3-uyga vazifa
 
-let arr = [1,-4,-4,5,-10,-10,-23,-34,-34,54]
+let arr = [1,-4,5,-10,-10,-23,-34,-4,-34,54]
 // let a = arr[i]
 // let b = arr[i+1]
 for(i=0; i<arr.length; i++){
-  if(arr[i]==arr[i+1]){
-    console.log(arr[i])
+  for(j=i+1; j<arr.length; j++){
+    if(arr[i]==arr[j]){
+      console.log(arr[i])
+    }
   }
 }
