@@ -57,9 +57,7 @@ function isPalindrom(str){
     return(false)
   }
 }
-console.log(isPalindrom("gul"))
-
-isPalindrom("gul")
+console.log(isPalindrom("salom"))
 
 
 //3-uyga vazifa
@@ -79,20 +77,18 @@ function countVowels(str){
 }
 console.log(countVowels("aaa bbb asa d E uaaaaaa"))
 
-countVowels("aaa bbb asa d E uaaaaaa")
-
 
 //3-uyga vazifa
 
-// function countVowels(str){
-//   let str1 = "";
-//   for(let i=0; i<str.length; i++){
-//     if(str[i]=="a" || str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u"){
-//       str1+=str[i]
-//     }
-//     }
-//     return(str1.length)
-// }
-// console.log(countVowels("aaa bbb asa d E uaaaaaa"))
+function countVowels(str){
+  let str1 = "";
+  for(let i=0; i<str.length; i++){
+    if(str[i]=="a" || str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u"){
+      str1+=str[i]
+    }
+    }
+    return(str1.length)
+}
+console.log(countVowels("aaa bbb asa d E uaaaaaa"))
 
-// countVowels("aaa bbb asa d E uaaaaaa")
+countVowels("aaa bbb asa d E uaaaaaa")
