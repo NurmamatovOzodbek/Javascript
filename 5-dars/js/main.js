@@ -63,24 +63,6 @@ console.log(isPalindrom("salom"))
 //3-uyga vazifa
 
 function countVowels(str){
-  let len=0;
-  let str1 = "AaEeIiOoUu";
-  for(let i=0; i<str.length; i++){
-    for(let j=0;j<=str1.length;j++){
-      if(str[i]==str1[j]){
-        len++;
-        break;
-      }
-    }
-    }
-    return len
-}
-console.log(countVowels("aaa bbb asa d E uaaaaaa"))
-
-
-//3-uyga vazifa
-
-function countVowels(str){
   let str1 = "";
   for(let i=0; i<str.length; i++){
     if(str[i]=="a" || str[i]=="e" || str[i]=="i" || str[i]=="o" || str[i]=="u"){
