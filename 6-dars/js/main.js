@@ -1,20 +1,15 @@
 //1-uyga vazifa
 
-function floor(num) {
-  let result = num;
-  if (num >= 0) {
-    while (result >= 1) {
-      result--;
-    }
-  } else {
-    while (result <= -1) {
-      result++;
-    }
-    result++;
+function floor(num){
+  let num1 = num.toString().split(".").slice(0, 1) * 1
+  if(num > 0){
+    return num1
   }
-  return num-result;
+  else{
+    return num1 - 1
+  }
 }
-console.log(floor(6.9))
+console.log(floor(6.3));
 
 
 //2-uyga vazifa
