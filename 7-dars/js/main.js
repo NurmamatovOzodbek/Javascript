@@ -98,7 +98,7 @@ function startWidth(str,from){
   }
   return false
 }
-console.log(startWidth("ozodbek","0"))
+console.log(startWidth("ozodbek","o"))
 
 
 
