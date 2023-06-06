@@ -38,23 +38,23 @@ console.log(ArrUnShift([1,2,3,4,"salom",8],5))
 function ArrSplit(str,item){
   let arr1 = []
   for(let i=0; i<str.length; i++){
-    if()
+    arr1[i]=str[i]
   }
   return arr1
 }
-console.log(ArrSplit("salom, Abu",", "))
+console.log(ArrSplit("salom Abu"))
 
 //5-uyga vazifa
 
 function ArrJoin(arr,item){
-  let str = ""
+  let str2 = ""
   for(let i=0; i<arr.length; i++){
-    str+=arr[i]
-    str += item
+    str2+=arr[i]
+    str2 += item
   }
-  return str
+  return str2
 }
-console.log(ArrJoin(["Salom", "Abu", "nima", "gap"], " "))
+console.log(ArrJoin(["hi", "Abu", "how", "are", "you"], " "))
 
 //6-uyga vazifa
 
@@ -62,4 +62,4 @@ function ArrPush(arr,newItem){
   arr[arr.length]=newItem
   return arr
 }
-console.log(ArrPush([1,2,3,4,"salom",8],"hello"))
+console.log(ArrPush([18,26,0,126,"nima","hi"],"salom"))
